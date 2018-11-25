@@ -280,6 +280,26 @@ nav h1 a {
   color: #666;
 }
 
-/* @media (min-width: 750px) {
+@media (min-width: 850px) {
+	body {
+		max-width: 850px;
+		margin: auto;
+	}
 
-} */
+	nav {
+		max-width: 850px;
+	}
+
+	.inside #map-container {
+	  height: 175px;
+	  position: fixed;
+		right: auto;
+	  top: 110px;
+	  max-width: 850px;
+	}
+
+	#breadcrumb {
+		padding: 10px 0px 16px 40px;
+		max-width: 810px;
+	}
+}
