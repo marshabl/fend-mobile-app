@@ -131,6 +131,10 @@ nav h1 a {
   width: 200px;
 }
 
+.filter-options select:focus {
+  border: 5px solid black;
+}
+
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
 	display: flex;
